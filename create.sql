@@ -1,11 +1,11 @@
 --
--- Database: `samplevideo_db`
+-- Database: `internWiz`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user_details`
+-- Table structure for table `Students`
 --
 CREATE TABLE IF NOT EXISTS 'Students' (
   `student_id` int(11) NOT NULL AUTO_INCREMENT,
@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS 'Students' (
   PRIMARY KEY (`student_id`)
 );
 --
--- Dumping data for table `user_details`
+-- Dumping data for table `Students`
 --
 
 INSERT INTO `Students` (`student_id`, `name`, `department`, `email`) VALUES
