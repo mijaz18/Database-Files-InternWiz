@@ -29,3 +29,8 @@ INSERT INTO `Students` (`student_id`, `name`, `department`, `email`) VALUES
 (000008, 'David John', 'Nursing', 'djohn5@college.edu'),
 (000009, 'Morgan Maria', 'Computer Science', 'mmaria@college.edu'),
 (0000010, 'Paul Sanders', 'History', 'psand@college.edu');
+
+--
+-- Table structure for table `Employers`
+--
+
