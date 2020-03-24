@@ -19,13 +19,13 @@ CREATE TABLE IF NOT EXISTS 'Students' (
 --
 
 INSERT INTO `Students` (`student_id`, `name`, `department`, `email`) VALUES
-(000001, 'David John', '', 'djohn@college.edu', 1),
-(000002, 'Rogers Paul', '', 'djohn@college.edu', 1),
-(000003, 'Maria Sanders', '', 'djohn@college.edu', 1),
-(000004, 'Mark Thomas', '', 'djohn@college.edu', 1),
-(000005, 'Morris Miller', '', 'djohn@college.edu', 1),
-(000006, 'Daniel Michael', '', 'djohn@college.edu', 1),
-(000007, 'Mark Mike', 'sanders', 'paul', 'Female', 'djohn@college.edu', 1),
-(000008, 'David John', 'mark', 'mike', 'Male', 'djohn@college.edu', 1),
-(000009, 'Morgan Maria', 'morgan', 'maria', 'Female', 'djohn@college.edu', 1),
-(0000010, 'Paul Sanders', 'paul', 'miller', 'Female', 'djohn@college.edu', 1);
+(000001, 'David John', 'Fiance', 'djohn@college.edu'),
+(000002, 'Rogers Paul', 'Graphic Design', 'prog10@college.edu'),
+(000003, 'Maria Sanders', 'History', 'msand8@college.edu'),
+(000004, 'Mark Thomas', 'Marketing', 'mthomas15@college.edu'),
+(000005, 'Morris Miller', 'Computer Science', 'mmiller@college.edu'),
+(000006, 'Daniel Michael', 'Marketing', 'dmich@college.edu'),
+(000007, 'Mark Mike', 'Political Science', 'magicmike@college.edu'),
+(000008, 'David John', 'Nursing', 'djohn5@college.edu'),
+(000009, 'Morgan Maria', 'Computer Science', 'mmaria@college.edu'),
+(0000010, 'Paul Sanders', 'History', 'psand@college.edu');
