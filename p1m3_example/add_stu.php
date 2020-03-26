@@ -15,7 +15,7 @@
 
 <?php
 require_once('db_setup.php');
-$sql = "USE some_database;";
+$sql = "USE mijaz_1;";
 if ($conn->query($sql) === TRUE) {
    // echo "using Database tbiswas2_company";
 } else {
@@ -24,8 +24,9 @@ if ($conn->query($sql) === TRUE) {
 // Query:
 $id = $_POST['id'];
 $name = $_POST['name'];
-$gpa = $_POST['gpa'];
-$sql = "INSERT INTO Students values ($id, '$name', $gpa);";
+$department = $_POST['department'];
+$email = $_POST['email'];
+$sql = "INSERT INTO Students values ($id, '$name', $department, $email);";
 
 
 #$sql = "SELECT * FROM Students where Username like 'amai2';";
