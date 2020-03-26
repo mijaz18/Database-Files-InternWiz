@@ -26,7 +26,8 @@ $employer_id = $_POST['employer_id'];
 $name = $_POST['name'];
 $department = $_POST['email'];
 $email = $_POST['address'];
-$sql = "INSERT INTO Employers values ('$employer_id', '$name', '$department', '$email');";
+$phone = $_POST['phone'];
+$sql = "INSERT INTO Employers values ('$employer_id', '$name', '$department', '$email', '$phone');";
 
 
 #$sql = "SELECT * FROM Students where Username like 'amai2';";
