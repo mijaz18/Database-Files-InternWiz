@@ -22,11 +22,11 @@ if ($conn->query($sql) === TRUE) {
    echo "Error using  database: " . $conn->error;
 }
 // Query:
-$student_id = $_POST['student_id'];
-$name = $_POST['name'];
-$department = $_POST['department'];
-$email = $_POST['email'];
-$sql = "INSERT INTO Students values ('$student_id', '$name', '$department', '$email');";
+$job_id = $_POST['job_id'];
+$employer_id = $_POST['employer_id'];
+$description = $_POST['description'];
+$majors = $_POST['majors'];
+$sql = "INSERT INTO Jobs values ('$job_id', '$employer_id', '$description', '$majors');";
 
 
 #$sql = "SELECT * FROM Students where Username like 'amai2';";
