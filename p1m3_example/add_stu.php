@@ -26,7 +26,7 @@ $id = $_POST['id'];
 $name = $_POST['name'];
 $department = $_POST['department'];
 $email = $_POST['email'];
-$sql = "INSERT INTO Students values ($id, $name, $department, $email);";
+$sql = "INSERT INTO 'Students' values ($id, $name, $department, $email);";
 
 
 #$sql = "SELECT * FROM Students where Username like 'amai2';";
