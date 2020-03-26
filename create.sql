@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS Employers (
   name varchar(255) DEFAULT NULL,
   email varchar(255) DEFAULT NULL,
   address varchar(255) DEFAULT NULL,
-  phone varchar(10) DEFAULT NULL,
+  phone varchar(14) DEFAULT NULL,
   PRIMARY KEY (employer_id)
 );
 
