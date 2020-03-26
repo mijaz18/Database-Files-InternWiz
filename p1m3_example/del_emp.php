@@ -22,8 +22,8 @@ if ($conn->query($sql) === TRUE) {
    echo "Error using  database: " . $conn->error;
 }
 // Query:
-$id = $_POST['student_id'];
-$sql = "DELETE FROM  Students where student_id =  $id;";
+$id = $_POST['employer_id'];
+$sql = "DELETE FROM  Employers where employer_id =  $id;";
 
 
 #$sql = "SELECT * FROM Students where Username like 'amai2';";
