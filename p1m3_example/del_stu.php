@@ -15,15 +15,15 @@
 
 <?php
 require_once('db_setup.php');
-$sql = "USE some_database;";
+$sql = "USE mijaz_1;";
 if ($conn->query($sql) === TRUE) {
    // echo "using Database tbiswas2_company";
 } else {
    echo "Error using  database: " . $conn->error;
 }
 // Query:
-$id = $_POST['id'];
-$sql = "DELETE FROM  Students where id =  $id;";
+$id = $_POST['student_id'];
+$sql = "DELETE FROM  Students where student_id =  $id;";
 
 
 #$sql = "SELECT * FROM Students where Username like 'amai2';";
