@@ -15,7 +15,7 @@
 
 <?php
 require_once('db_setup.php');
-$sql = "USE some_database;";
+$sql = "USE mijaz_1;";
 if ($conn->query($sql) === TRUE) {
    // echo "using Database tbiswas2_company";
 } else {
@@ -29,17 +29,19 @@ if($result->num_rows > 0){
 ?>
    <table class="table table-striped">
       <tr>
-         <th>id</th>
+         <th>student_id</th>
          <th>name</th>
-         <th>gpa</th>
+         <th>department</th>
+         <th>email</th>
       </tr>
 <?php
 while($row = $result->fetch_assoc()){
 ?>
       <tr>
-          <td><?php echo $row['id']?></td>
+          <td><?php echo $row['student_id']?></td>
           <td><?php echo $row['name']?></td>
-          <td><?php echo $row['gpa']?></td>
+          <td><?php echo $row['department']?></td>
+          <td><?php echo $row['email']?></td>
       </tr>
 
 <?php
