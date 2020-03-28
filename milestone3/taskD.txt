@@ -1,0 +1,11 @@
+Add Student: http://betaweb.csug.rochester.edu/~mijaz/Database-Files-InternWiz/website/add_stu.html
+
+Delete Student: http://betaweb.csug.rochester.edu/~mijaz/Database-Files-InternWiz/website/del_stu.html
+
+Add Employer: http://betaweb.csug.rochester.edu/~mijaz/Database-Files-InternWiz/website/add_emp.html
+
+Delete Employer: http://betaweb.csug.rochester.edu/~mijaz/Database-Files-InternWiz/website/del_emp.html
+
+Add Job: http://betaweb.csug.rochester.edu/~mijaz/Database-Files-InternWiz/website/add_jobs.html
+
+Add Faculty: http://betaweb.csug.rochester.edu/~mijaz/Database-Files-InternWiz/website/add_fac.html

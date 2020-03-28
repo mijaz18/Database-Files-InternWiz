@@ -1,0 +1,7 @@
+View Students: http://betaweb.csug.rochester.edu/~mijaz/Database-Files-InternWiz/website/select_stu.php 
+
+View Employers: http://betaweb.csug.rochester.edu/~mijaz/Database-Files-InternWiz/website/select_emp.php
+
+View Jobs: http://betaweb.csug.rochester.edu/~mijaz/Database-Files-InternWiz/website/select_jobs.php
+
+View Faculty: http://betaweb.csug.rochester.edu/~mijaz/Database-Files-InternWiz/website/select_fac.php
