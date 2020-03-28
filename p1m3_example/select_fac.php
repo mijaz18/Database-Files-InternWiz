@@ -17,11 +17,9 @@
 require_once('db_setup.php');
 $sql = "USE mijaz_1;";
 if ($conn->query($sql) === TRUE) {
-   // echo "using Database tbiswas2_company";
 } else {
    echo "Error using  database: " . $conn->error;
 }
-// Query:
 $sql = "SELECT * FROM Faculty";
 $result = $conn->query($sql);
 if($result->num_rows > 0){
