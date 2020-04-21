@@ -20,6 +20,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $employer_name = $_POST['employer_name'];
+echo $employer_name;
 $sql = "SELECT * FROM Employers WHERE name = '$employer_name';";
 
 $result = $conn->query($sql);
