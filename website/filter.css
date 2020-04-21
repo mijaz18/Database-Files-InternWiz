@@ -235,8 +235,8 @@ p {
 .dropdown {
   position: relative;
   display: inline-block;
-  float:left;
-  width:40%;
+  float:middle;
+  width:50%;
   margin:2em 30%;
   padding:2em 0;
 }
