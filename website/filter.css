@@ -236,14 +236,13 @@ p {
   position: relative;
   display: inline-block;
   float:middle;
-  width:50%;
-  margin:2em 30%;
-  padding:2em 0;
+  text-align:center;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+  display: inline;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
