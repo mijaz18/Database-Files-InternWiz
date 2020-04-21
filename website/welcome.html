@@ -1,10 +1,21 @@
 <html>
 <head>
-<link rel="stylesheet" href="form8.css">
+<link rel="stylesheet" href="filter.css">
+<div class="deco topdeco">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+  
+  <h1>Welcome to InternWiz</h1>
+  <h3>
+    a quick search for internships
+  </h3>
 </head>
 
 <body>
-<div class="center form-style-8">
+<!-- <div class="center form-style-8">
 
 <h1> Welcome to InternWiz Table Browser </h1>
 
@@ -20,6 +31,29 @@
 <li><a href="select_fac.php">View Faculty</a></li>
 <li><a href="add_fac.html">Add Faculty</a></li>
 
+</ul> -->
+
+<section class="list-wrap">
+
+   <label for="search-text">Search the list</label>
+  <input type="text" id="search-text" placeholder="search" class="search-box">
+    <span class="list-count"></span>
+    
+    
+<ul id="list">
+  <li class="in"><a href="select_stu.php">View Students</a></li>
+  <li class="in"><a href="add_stu.html">Add Student</a></li>
+  <li class="in"><a href="del_stu.html">Delete Student</a></li>
+  <li class="in"><a href="select_emp.php">View Employers</a></li>
+  <li class="in"><a href="add_emp.html">Add Employer</a></li>
+  <li class="in"><a href="del_emp.html">Delete Employer</a></li>
+  <li class="in"><a href="select_jobs.php">View Jobs</a></li>
+  <li class="in"><a href="add_jobs.html">Add Job</a></li>
+  <li class="in"><a href="select_fac.php">View Faculty</a></li>
+  <span class="empty-item">no results</span>
 </ul>
+   </section>
 </body>
+
+
 </html>
