@@ -20,41 +20,46 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $employer_name = $_POST['employer_name'];
-$sql = "SELECT FROM (Jobs JOIN Employers) WHERE name = $employer_name;";
+$sql = "SELECT FROM Employers WHERE name = '$employer_name';";
 
 $result = $conn->query($sql);
 
-?>
-   <table class="table table-striped">
-      <tr>
-         <th>job_id</th>
-         <th>employer_id</th>
-         <th>description</th>
-         <th>majors</th>
-      </tr>
-<?php
-while($row = $result->fetch_assoc()){
-?>
-      <tr>
-          <td><?php echo $row['job_id']?></td>
-          <td><?php echo $row['employer_id']?></td>
-          <td><?php echo $row['description']?></td>
-          <td><?php echo $row['majors']?></td>
-      </tr>
+if($result->num_rows > 0){
 
-<?php
-}
-}
-else {
-echo "Nothing to display";
-}
-?>
-
-    </table>
-
-<?php
-$conn->close();
-?>  
-
-</body>
-</html>
+    ?>
+       <table class="table table-striped">
+          <tr>
+             <th>employer_id</th>
+             <th>name</th>
+             <th>email</th>
+             <th>address</th>
+             <th>phone</th>
+          </tr>
+    <?php
+    while($row = $result->fetch_assoc()){
+    ?>
+          <tr>
+              <td><?php echo $row['employer_id']?></td>
+              <td><?php echo $row['name']?></td>
+              <td><?php echo $row['email']?></td>
+              <td><?php echo $row['address']?></td>
+              <td><?php echo $row['phone']?></td>
+          </tr>
+    
+    <?php
+    }
+    }
+    else {
+    echo "Nothing to display";
+    }
+    ?>
+    
+        </table>
+    
+    <?php
+    $conn->close();
+    ?>  
+    
+    </body>
+    </html>
+    
