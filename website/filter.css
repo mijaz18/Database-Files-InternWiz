@@ -225,8 +225,9 @@ p {
 .dropbtn {
   background-color: #0e4496;
   color: white;
-  padding: 32px;
+  padding: 26px;
   font-size: 16px;
+  min-width: 180px;
   border: none;
   cursor: pointer;
 }
