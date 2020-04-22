@@ -229,6 +229,7 @@ p {
 }
 .dropbtn {
   background-color: #0e4496;
+  text-align:center;
   color: white;
   padding: 26px;
   font-size: 16px;
