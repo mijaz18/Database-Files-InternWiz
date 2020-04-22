@@ -131,7 +131,8 @@ The following are styles purely for the surroundings
 
 body {
   /*background-color:#fff;*/
-  background: rgb(66, 645, 250);
+  background-image: url("paper.gif");
+  background-color: #cccccc;
   font-family:'Open Sans', sans-serif;
   margin:0;
   padding:0;
