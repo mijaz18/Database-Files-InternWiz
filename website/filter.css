@@ -151,9 +151,10 @@ h1 {
 h3 {
   margin:0 0 2em;
   text-align:center;
-font-weight:normal;
-font-family: georgia, times;
-font-style:italic;
+  font-weight:normal;
+  font-family: georgia, times;
+  font-style:italic;
+  background: rgb(66, 645, 250);
   color:#777;
   font-size:1em;
 }
@@ -203,6 +204,7 @@ p {
   width:100%;
   height:10px;
   position:fixed;
+  background: rgb(66, 645, 250);
   z-index:10;
 }
 
