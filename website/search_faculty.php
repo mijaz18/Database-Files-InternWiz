@@ -38,7 +38,7 @@ if($result->num_rows > 0){
     while($row = $result->fetch_assoc()){
     ?>
           <tr>
-            <td><?php echo $row['student_id']?></td>
+            <td><?php echo $row['faculty_id']?></td>
               <td><?php echo $row['name']?></td>
               <td><?php echo $row['department']?></td>
               <td><?php echo $row['email']?></td>
