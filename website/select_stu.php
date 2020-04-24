@@ -25,10 +25,10 @@ if($result->num_rows > 0){
 ?>
    <table class="table table-striped">
       <tr>
-         <th>student_id</th>
-         <th>name</th>
-         <th>department</th>
-         <th>email</th>
+         <th>Student ID</th>
+         <th>Name</th>
+         <th>Department</th>
+         <th>Email</th>
       </tr>
 <?php
 while($row = $result->fetch_assoc()){
