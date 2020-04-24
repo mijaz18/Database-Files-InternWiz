@@ -39,6 +39,7 @@ if($result->num_rows > 0){
     while($row = $result->fetch_assoc()){
     ?>
           <tr>
+            <td><?php echo $row['employer_id']?></td>
               <td><?php echo $row['name']?></td>
               <td><?php echo $row['email']?></td>
               <td><?php echo $row['address']?></td>
