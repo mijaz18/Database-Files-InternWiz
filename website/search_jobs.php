@@ -20,7 +20,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $employer_name = $_POST['employer_name'];
-$sql = "SELECT job_id, name, email, description, majors FROM (Jobs INNER JOIN Employers on Jobs.employer_id = Employers.emploer_id) WHERE name = '$employer_name';";
+$sql = "SELECT job_id, name, email, description, majors FROM (Jobs INNER JOIN Employers on Jobs.employer_id = Employers.employer_id) WHERE name = '$employer_name';";
 
 $result = $conn->query($sql);
 

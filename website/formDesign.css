@@ -15,7 +15,7 @@
     background: #4D4D4D;
     text-transform: uppercase;
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #797979;
+    color: #f5f3f3;
     font-size: 18px;
     font-weight: 100;
     padding: 20px;
@@ -76,29 +76,30 @@
 .center {
     margin: auto;
     width: 60%;
-    border: 3px solid #73AD21;
+    border: 3px solid #ecefe7;
     padding: 10px;
 }
 
-.body {
-  background-color:#00185a;
+body {
+  background-color:#04288a;
   font-family:'Open Sans', sans-serif;
   margin:0;
   padding:0;
   font-size:1em;
 }
 
-.a {color:#000000;}
+a {color:#eaeaea;}
 
-.h1 {
+h1 {
   font-size:2.6em;
   background:#ff9c00;
+  text-align:center;
   margin:0;
   padding-top:1.5em;
   text-align:center;
   font-family: 'Maven Pro', sans-serif;
 }
-.h3 {
+h3 {
   margin:0 0 2em;
   text-align:center;
   font-weight:normal;
