@@ -130,7 +130,7 @@ The following are styles purely for the surroundings
 
 
 body {
-  background-color:#6e8fec;
+  background-color:#00185a;
   font-family:'Open Sans', sans-serif;
   margin:0;
   padding:0;
@@ -220,10 +220,10 @@ p {
   background:#000;
 }
 .deco span:nth-child(3) {
-  background:#6e8fec;
+  background:#00185a;
 }
 .deco span:nth-child(4) {
-  background:#6e8fec;
+  background:#00185a;
 }
 .dropbtn {
   background-color: #ff9c00;
