@@ -60,7 +60,7 @@ if($result->num_rows > 0){
     <div class="container">
   <div class="row">
     <div class="col text-center">
-      <a class="btn btn-primary" href="welcome.html" role="button">Home</a>
+      <a class="btn btn-primary" href="search_students.html" role="button">Back</a>
     </div>
   </div>
 </div> 
