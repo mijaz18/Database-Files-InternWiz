@@ -178,6 +178,8 @@ h3 {
 p {
   text-align:left;
   font-size:1em;
+  background: #ff9c00;
+
 }
 
 .cta {
@@ -276,5 +278,9 @@ p {
 
 .dropdown:hover .dropbtn {
   background-color: #f3a341;
+}
+
+.p{
+
 }
 
