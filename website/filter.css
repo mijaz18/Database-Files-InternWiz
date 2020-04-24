@@ -130,19 +130,18 @@ The following are styles purely for the surroundings
 
 
 body {
-  background-color:#a6efa8;
-  background-image: url("paper.gif");
+  background-color:#6e8fec;
   font-family:'Open Sans', sans-serif;
   margin:0;
   padding:0;
   font-size:1em;
 }
 
-a {color:#00BDE8;}
+a {color:#000000;}
 
 h1 {
   font-size:2.6em;
-  background:#FFA00A;
+  background:#ff9c00;
   margin:0;
   padding-top:1.5em;
   text-align:center;
@@ -154,8 +153,8 @@ h3 {
   font-weight:normal;
   font-family: georgia, times;
   font-style:italic;
-  background: rgb(66, 645, 250);
-  color:#777;
+  background: #ff9c00;
+  color:#000;
   font-size:1em;
 }
 
@@ -215,20 +214,20 @@ p {
 }
 
 .deco span:nth-child(1) {
-  background:#FF8220;
+  background:#000;
 }
 .deco span:nth-child(2) {
   background:#000;
 }
 .deco span:nth-child(3) {
-  background:#FFA00A;
+  background:#6e8fec;
 }
 .deco span:nth-child(4) {
-  background:#00BDE8;
+  background:#6e8fec;
 }
 .dropbtn {
-  background-color: #0e4496;
-  color: red;
+  background-color: #ff9c00;
+  color: black;
   padding: 26px;
   font-size: 16px;
   min-width: 180px;
@@ -275,6 +274,6 @@ p {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #f3a341;
 }
 
