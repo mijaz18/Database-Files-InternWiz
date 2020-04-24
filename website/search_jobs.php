@@ -20,7 +20,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $employer_name = $_POST['employer_name'];
-$sql = "SELECT * FROM Employers WHERE name = '$employer_name';";
+$sql = "SELECT job_id, name, email, description, majors FROM (Jobs INNER JOIN Employers on Jobs.employer_id = Employers.emploer_id) WHERE name = '$employer_name';";
 
 $result = $conn->query($sql);
 
@@ -29,20 +29,21 @@ if($result->num_rows > 0){
     ?>
        <table class="table table-striped">
           <tr>
-             <th>employer_id</th>
+             <th>job_id</th>
              <th>name</th>
              <th>email</th>
-             <th>address</th>
-             <th>phone</th>
+             <th>description</th>
+             <th>majors</th>
           </tr>
     <?php
     while($row = $result->fetch_assoc()){
     ?>
           <tr>
+              <td><?php echo $row['job_id']?></td>
               <td><?php echo $row['name']?></td>
               <td><?php echo $row['email']?></td>
-              <td><?php echo $row['address']?></td>
-              <td><?php echo $row['phone']?></td>
+              <td><?php echo $row['description']?></td>
+              <td><?php echo $row['majors']?></td>
           </tr>
     
     <?php
