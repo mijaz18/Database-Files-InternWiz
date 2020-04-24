@@ -9,7 +9,7 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="p-3 mb-2 bg-info text-white">
 
 <?php
 require_once('db_setup.php');
@@ -29,11 +29,11 @@ if($result->num_rows > 0){
     ?>
        <table class="table table-striped">
           <tr>
-             <th>job_id</th>
-             <th>name</th>
-             <th>email</th>
-             <th>description</th>
-             <th>majors</th>
+             <th>Job ID</th>
+             <th>Name</th>
+             <th>Email</th>
+             <th>Description</th>
+             <th>Majors</th>
           </tr>
     <?php
     while($row = $result->fetch_assoc()){
@@ -59,7 +59,13 @@ if($result->num_rows > 0){
     <?php
     $conn->close();
     ?>  
-    
+    <div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <a class="btn btn-primary" href="search_jobs.html" role="button">Back</a>
+    </div>
+  </div>
+</div>
     </body>
     </html>
     
