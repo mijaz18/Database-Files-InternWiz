@@ -280,8 +280,21 @@ p {
   background-color: #f3a341;
 }
 
-.img{
-  margin-left: 0;
+
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.slider_thumbnails{
+    width: 720px;
+    display:inline-block;
+    white-space:nowrap;
 }
 
 
