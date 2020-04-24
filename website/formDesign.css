@@ -15,7 +15,7 @@
     background: #4D4D4D;
     text-transform: uppercase;
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #797979;
+    color: #f5f3f3;
     font-size: 18px;
     font-weight: 100;
     padding: 20px;
@@ -76,7 +76,7 @@
 .center {
     margin: auto;
     width: 60%;
-    border: 3px solid #73AD21;
+    border: 3px solid #ecefe7;
     padding: 10px;
 }
 
@@ -88,7 +88,7 @@ body {
   font-size:1em;
 }
 
-a {color:#000000;}
+a {color:#d6c7c7;}
 
 h1 {
   font-size:2.6em;
