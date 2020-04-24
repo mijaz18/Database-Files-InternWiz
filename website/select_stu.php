@@ -52,7 +52,13 @@ echo "Nothing to display. No Results were returned for your search!";
 
 <?php
 $conn->close();
-?>  
-<a class="btn btn-primary" href="welcome.html" role="button">Home</a>
+?> 
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <a class="btn btn-primary" href="welcome.html" role="button">Home</a>
+    </div>
+  </div>
+</div> 
 </body>
 </html>
